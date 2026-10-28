@@ -7,3 +7,6 @@ build/
 .vercel
 *.tsbuildinfo
 .DS_Store
+# Generated copies of the static portfolio used by the Next.js build.
+public/preview.html
+public/preview.css

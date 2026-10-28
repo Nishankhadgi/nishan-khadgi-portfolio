@@ -1,0 +1,15 @@
+:root {
+  color-scheme: dark;
+  background: #10120f;
+  color: #eff1e7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: #10120f; }
+body { min-height: 100vh; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid #c7ff46; outline-offset: 3px; }
+::selection { background: #c7ff46; color: #10120f; }
