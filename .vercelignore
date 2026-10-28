@@ -1,0 +1,8 @@
+node_modules
+.next
+.env*.local
+preview.html
+preview.css
+AGENTS.md
+*.log
+
