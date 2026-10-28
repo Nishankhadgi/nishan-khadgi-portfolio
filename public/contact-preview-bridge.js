@@ -38,9 +38,24 @@
       if (typeof config.email === "string" && config.email) entries.push(["EMAIL", config.email, "mailto:" + config.email]);
       if (typeof config.linkedin === "string" && safeHref(config.linkedin)) entries.push(["LINKEDIN", config.linkedin.replace(/^https?:\/\//, "").replace(/\/$/, ""), safeHref(config.linkedin)]);
       if (typeof config.github === "string" && safeHref(config.github)) entries.push(["GITHUB", config.github.replace(/^https?:\/\//, "").replace(/\/$/, ""), safeHref(config.github)]);
-      if (!entries.length) return;
-      container.replaceChildren();
-      for (const entry of entries) addContactLink(container, ...entry);
+      if (entries.length) {
+        container.replaceChildren();
+        for (const entry of entries) addContactLink(container, ...entry);
+      }
+
+      const repoUrls = [config.itgcRepo, config.vendorRiskRepo, config.stockApiRepo];
+      document.querySelectorAll(".project-entry").forEach((project, index) => {
+        const placeholder = project.querySelector(".repo-pending");
+        const href = safeHref(repoUrls[index] || "");
+        if (!placeholder || !href) return;
+        const link = document.createElement("a");
+        link.className = "repo-pending";
+        link.href = href;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "⌘ View repository ↗";
+        placeholder.replaceWith(link);
+      });
     })
     .catch(() => {});
 

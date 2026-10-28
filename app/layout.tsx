@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Technology risk, cybersecurity GRC, IT audit, control assurance, and evidence-led remediation in an interactive portfolio.",
   applicationName: "Nishan Khadgi Portfolio",
+  metadataBase: process.env.NEXT_PUBLIC_SITE_URL?.trim()
+    ? new URL(process.env.NEXT_PUBLIC_SITE_URL.trim())
+    : undefined,
   openGraph: {
     title: "Nishan Khadgi — Turning Cyber Risk Into Clarity",
     description:

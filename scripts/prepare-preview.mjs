@@ -14,6 +14,7 @@ html = html.replace("OCT 2026 — PRESENT", "AUG 2026 — PRESENT");
 // Correct static-asset paths after the preview is served from Next.js /public.
 html = html.replaceAll('href="public/favicon.svg"', 'href="/favicon.svg"');
 html = html.replaceAll('href="public/resume.pdf"', 'href="/resume.pdf"');
+html = html.replace('Add your actual email, LinkedIn, and GitHub URLs to <code>.env.local</code> before publishing.', "Configure your public profile variables in the deployment environment before publishing.");
 if (!html.includes("/contact-preview-bridge.js")) {
   html = html.replace("</body>", '  <script src="/contact-preview-bridge.js" defer></script>\n</body>');
 }
