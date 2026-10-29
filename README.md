@@ -18,7 +18,7 @@ A cybersecurity portfolio focused on Security Operations Center (SOC) work: secu
 - Experience section reflecting the supplied résumé, including the stated alert, case, detection-rule, and automation metrics.
 - Technical skills grouped by SOC operations, SIEM/detection, endpoint/network security, threat intelligence, cloud/identity, scripting, and security tools.
 - Certifications and education sections matching the supplied résumé.
-- Direct résumé download from public/resume.pdf.
+- Direct résumé download: [Download the résumé](public/resume.pdf).
 - Server-side contact form with input validation, a honeypot field, and optional Resend delivery.
 
 ## Synthetic data notice
