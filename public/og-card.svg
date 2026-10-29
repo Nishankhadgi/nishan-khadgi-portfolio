@@ -1,9 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080c16"/><stop offset="1" stop-color="#111d32"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#39e8cc" stop-opacity=".6"/><stop offset="1" stop-color="#7b89ff" stop-opacity=".05"/></linearGradient></defs>
-<rect width="1200" height="630" fill="url(#bg)"/>
-<g fill="none" stroke="url(#line)" stroke-width="1"><path d="M610 -20 C480 130 810 145 630 275 S520 475 710 660"/><path d="M660 -20 C530 130 860 145 680 275 S570 475 760 660"/><path d="M710 -20 C580 130 910 145 730 275 S620 475 810 660"/><path d="M760 -20 C630 130 960 145 780 275 S670 475 860 660"/><path d="M0 490H1200M0 540H1200M0 590H1200"/></g>
-<text x="68" y="78" fill="#39e8cc" font-family="monospace" font-size="20" letter-spacing="5">NISHAN KHADGI / SOC ANALYST</text>
-<text x="62" y="250" fill="#edf4fc" font-family="Arial,sans-serif" font-weight="700" font-size="84">Detect the signal.</text>
-<text x="62" y="347" fill="#39e8cc" font-family="Arial,sans-serif" font-weight="700" font-size="84">Contain the risk.</text>
-<text x="68" y="430" fill="#a4b4c8" font-family="monospace" font-size="21" letter-spacing="2">TRIAGE · THREAT DETECTION · INCIDENT RESPONSE</text>
-<text x="68" y="575" fill="#6d8099" font-family="monospace" font-size="14" letter-spacing="4">EVIDENCE / CONTEXT / ACTION</text></svg>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfcff"/><stop offset=".58" stop-color="#f0f5fc"/><stop offset="1" stop-color="#edf8f8"/></linearGradient>
+  <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#087f8c" stop-opacity=".08"/><stop offset=".32" stop-color="#087f8c" stop-opacity=".9"/><stop offset=".68" stop-color="#5367d9" stop-opacity=".82"/><stop offset="1" stop-color="#8156bc" stop-opacity=".2"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#b8e9e5" stop-opacity=".5"/><stop offset="1" stop-color="#b8e9e5" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#paper)"/>
+<circle cx="930" cy="275" r="310" fill="url(#glow)"/>
+<g stroke="#55728e" stroke-opacity=".12" stroke-width="1">
+  <path d="M0 70H1200M0 120H1200M0 170H1200M0 220H1200M0 270H1200M0 320H1200M0 370H1200M0 420H1200M0 470H1200M0 520H1200M0 570H1200"/>
+  <path d="M60 0V630M110 0V630M160 0V630M210 0V630M260 0V630M310 0V630M360 0V630M410 0V630M460 0V630M510 0V630M560 0V630M610 0V630M660 0V630M710 0V630M760 0V630M810 0V630M860 0V630M910 0V630M960 0V630M1010 0V630M1060 0V630M1110 0V630M1160 0V630"/>
+</g>
+<g fill="none" stroke-width="1.7" opacity=".78">
+  <path d="M560 -40C430 92 746 120 626 238S552 430 752 680" stroke="#087f8c" stroke-opacity=".34"/>
+  <path d="M602 -40C472 92 788 120 668 238S594 430 794 680" stroke="#5367d9" stroke-opacity=".28"/>
+  <path d="M644 -40C514 92 830 120 710 238S636 430 836 680" stroke="#8156bc" stroke-opacity=".22"/>
+  <path d="M686 -40C556 92 872 120 752 238S678 430 878 680" stroke="#087f8c" stroke-opacity=".19"/>
+  <path d="M0 470C180 410 250 520 414 455S705 370 860 425S1040 512 1200 425" stroke="url(#signal)" stroke-width="3"/>
+  <path d="M0 494C180 434 250 544 414 479S705 394 860 449S1040 536 1200 449" stroke="#5367d9" stroke-opacity=".13"/>
+</g>
+<g>
+  <circle cx="720" cy="414" r="15" fill="#087f8c" fill-opacity=".08"/>
+  <circle cx="720" cy="414" r="6" fill="#fff" stroke="#087f8c" stroke-width="2"/>
+  <circle cx="900" cy="432" r="15" fill="#5367d9" fill-opacity=".09"/>
+  <circle cx="900" cy="432" r="6" fill="#fff" stroke="#5367d9" stroke-width="2"/>
+  <circle cx="1068" cy="479" r="15" fill="#8156bc" fill-opacity=".08"/>
+  <circle cx="1068" cy="479" r="6" fill="#fff" stroke="#8156bc" stroke-width="2"/>
+</g>
+<rect x="58" y="54" width="9" height="9" rx="2" fill="#087f8c"/>
+<text x="83" y="65" fill="#52677f" font-family="monospace" font-size="17" letter-spacing="4">NISHAN KHADGI / SOC ANALYST</text>
+<text x="58" y="223" fill="#182940" font-family="Arial,sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Detect the signal.</text>
+<text x="58" y="318" fill="#087f8c" font-family="Arial,sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Contain the risk.</text>
+<text x="62" y="388" fill="#52677f" font-family="monospace" font-size="18" letter-spacing="2">TRIAGE · THREAT DETECTION · INCIDENT RESPONSE</text>
+<rect x="62" y="535" width="324" height="42" rx="21" fill="#fff" stroke="#d5e0eb"/>
+<circle cx="85" cy="556" r="5" fill="#087f8c"/>
+<text x="101" y="562" fill="#52677f" font-family="monospace" font-size="13" letter-spacing="2">EVIDENCE / CONTEXT / ACTION</text>
+</svg>
