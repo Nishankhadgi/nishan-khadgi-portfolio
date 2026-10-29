@@ -1,93 +1,101 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%ASCII
 1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R
->>
+<< /Type /Catalog /Pages 2 0 R /Lang (en-US) >>
 endobj
 2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
 endobj
 4 0 obj
-<<
-/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<<
-/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
->>
+<< /Length 6979 >>
+stream
+BT /F2 23 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 754 Tm (Nishan Khadgi) Tj ET
+BT /F2 10 Tf 0.02 0.55 0.57 rg 1 0 0 1 43 735 Tm (SOC ANALYST) Tj ET
+BT /F1 8 Tf 0.31 0.38 0.46 rg 1 0 0 1 42 717 Tm (NY-11377  |  +1 \(518\) 335-2680  |  nishankhadgi091@gmail.com  |  LinkedIn  |  GitHub) Tj ET
+0.02 0.55 0.57 RG 1.4 w 42 704 m 570 704 l S
+BT /F2 9 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 687 Tm (SUMMARY) Tj ET
+0.78 0.84 0.88 RG 0.45 w 42 682 m 570 682 l S
+BT /F1 7.6 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 672 Tm (Cybersecurity professional with experience in SOC operations, security monitoring, alert triage, incident) Tj ET
+BT /F1 7.6 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 661.8 Tm (investigation, threat detection, and incident response. Skilled in analyzing endpoint, network, identity, and cloud) Tj ET
+BT /F1 7.6 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 651.5999999999999 Tm (security events to identify suspicious activity and assess potential threats. Knowledge of SIEM/EDR technologies,) Tj ET
+BT /F1 7.6 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 641.3999999999999 Tm (MITRE ATT&CK, threat intelligence, IOC analysis, phishing investigations, log correlation, and security automation.) Tj ET
+BT /F1 7.6 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 631.1999999999998 Tm (CompTIA Security+ and CompTIA CySA+ certified, with AWS Certified Security - Specialty certification.) Tj ET
+BT /F2 9 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 613.9999999999998 Tm (TECHNICAL SKILLS) Tj ET
+0.78 0.84 0.88 RG 0.45 w 42 608.9999999999998 m 570 608.9999999999998 l S
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 42 592.9999999999998 Tm (Security Operations) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 582.9999999999998 Tm (Security Monitoring, Alert Triage, Incident Investigation, Incident) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 574.5999999999998 Tm (Response, Threat Hunting, IOC Analysis, Phishing Investigation, Malware) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 566.1999999999998 Tm (Analysis, Root Cause Analysis) Tj ET
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 42 552.7999999999998 Tm (SIEM & Detection) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 542.7999999999998 Tm (Splunk, Microsoft Sentinel, IBM QRadar, Elastic Security, SPL, KQL, Log) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 534.3999999999999 Tm (Correlation, Detection Rules, Alert Tuning) Tj ET
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 42 520.9999999999999 Tm (Endpoint & Network Security) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 510.9999999999999 Tm (EDR/XDR, CrowdStrike, Microsoft Defender for Endpoint, SentinelOne,) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 502.5999999999999 Tm (Firewalls, IDS/IPS, Wireshark, TCP/IP, DNS, HTTP/HTTPS) Tj ET
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 42 489.19999999999993 Tm (Threat Intelligence & Frameworks) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 479.19999999999993 Tm (MITRE ATT&CK, Cyber Kill Chain, Threat Intelligence, IOC/IOA Enrichment,) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 470.79999999999995 Tm (TTP Analysis, NIST Cybersecurity Framework, CIS Controls) Tj ET
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 318 592.9999999999998 Tm (Cloud & Identity Security) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 318 582.9999999999998 Tm (AWS Security, AWS CloudTrail, Microsoft Azure, Microsoft Entra ID,) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 318 574.5999999999998 Tm (Identity and Access Monitoring, Cloud Security Monitoring) Tj ET
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 318 561.1999999999998 Tm (Scripting & Systems) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 318 551.1999999999998 Tm (Python, PowerShell, Bash, Windows, Linux, Active Directory) Tj ET
+BT /F2 7.6 Tf 0.02 0.55 0.57 rg 1 0 0 1 318 537.7999999999998 Tm (Security Tools) Tj ET
+BT /F1 6.9 Tf 0.13 0.18 0.25 rg 1 0 0 1 318 527.7999999999998 Tm (ServiceNow, Jira, SOAR, Security Playbooks, Incident Documentation) Tj ET
+BT /F2 9 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 453.4 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+0.78 0.84 0.88 RG 0.45 w 42 448.4 m 570 448.4 l S
+BT /F2 9 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 434.4 Tm (SOC Analyst | Sygnia, USA) Tj ET
+BT /F2 8 Tf 0.02 0.55 0.57 rg 1 0 0 1 440 434.4 Tm (May 2025 - Present) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 418.4 Tm (- Monitor and triage 300+ security alerts weekly across SIEM, EDR/XDR, endpoint, network, and identity systems,) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 409 Tm (prioritizing threats by severity and business impact.) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 397.20000000000005 Tm (- Investigate 45 security cases monthly, correlating system logs, authentication events, network traffic, and threat) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 387.80000000000007 Tm (intelligence to identify suspicious activity.) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 376.0000000000001 Tm (- Analyze phishing, malware, credential abuse, and unauthorized access; enrich IOCs and map attacker techniques to the) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 366.60000000000014 Tm (MITRE ATT&CK framework.) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 354.8000000000002 Tm (- Conduct threat hunting and maintain 10+ SIEM detection rules/use cases to strengthen threat detection and improve alert) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 345.4000000000002 Tm (quality.) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 333.60000000000025 Tm (- Support incident response through evidence collection, containment coordination, remediation tracking, and incident) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 324.2000000000003 Tm (documentation.) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 312.4000000000003 Tm (- Use Python, PowerShell, and Bash to automate investigation and enrichment tasks, targeting 5+ hours of time savings) Tj ET
+BT /F1 7.1 Tf 0.13 0.18 0.25 rg 1 0 0 1 44 303.00000000000034 Tm (weekly.) Tj ET
+BT /F2 9 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 290.2000000000004 Tm (EDUCATION) Tj ET
+0.78 0.84 0.88 RG 0.45 w 42 285.2000000000004 m 570 285.2000000000004 l S
+BT /F2 8.4 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 273.2000000000004 Tm (Bachelor of Science in Computer Security) Tj ET
+BT /F2 7.8 Tf 0.02 0.55 0.57 rg 1 0 0 1 440 273.2000000000004 Tm (Aug 2022 - May 2026) Tj ET
+BT /F1 7.5 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 261.2000000000004 Tm (State University of New York \(SUNY\) at Plattsburgh, NY) Tj ET
+BT /F2 9 Tf 0.05 0.10 0.18 rg 1 0 0 1 42 238.2000000000004 Tm (CERTIFICATIONS) Tj ET
+0.78 0.84 0.88 RG 0.45 w 42 233.2000000000004 m 570 233.2000000000004 l S
+BT /F2 8 Tf 0.13 0.18 0.25 rg 1 0 0 1 42 221.2000000000004 Tm (CompTIA Security+) Tj ET
+BT /F2 8 Tf 0.13 0.18 0.25 rg 1 0 0 1 225 221.2000000000004 Tm (CompTIA CySA+) Tj ET
+BT /F2 8 Tf 0.13 0.18 0.25 rg 1 0 0 1 380 221.2000000000004 Tm (AWS Certified Security - Specialty) Tj ET
+0.78 0.84 0.88 RG 0.45 w 42 30 m 570 30 l S
+BT /F1 6.8 Tf 0.31 0.38 0.46 rg 1 0 0 1 42 17 Tm (SOC operations | SIEM / EDR | Threat detection | Incident response) Tj ET
+endstream
 endobj
 7 0 obj
-<<
-/Author (Nishan Khadgi) /CreationDate (D:20261027202912+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261027202912+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (Technology Risk, Cybersecurity GRC and IT Audit) /Title (Nishan Khadgi - Technology Risk Consultant Resume Draft) /Trapped /False
->>
-endobj
-8 0 obj
-<<
-/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
->>
-endobj
-9 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2306
->>
-stream
-Gb!#]gJZcs&:O:So[=SF$5:ZQQ`5BG_BD[19l*\=<96Qi"'/l(?:b@lpY.L8q18oJ6=i_#>GI=X:\X,&4Tbiqs&&B;]DsntiQYR6PX0Nr<"K)h3V:5G^HLR:bS<#I:OgcaS8st6poHu%\F68%;dqKL0]8*RSo"d9J1Un4p=dk5-9]5"Zks?,)7<cJ`",@)IbUoiGDN0KpBYp,p$i6g9l65*2R+_(."hsf)@e+_r#pH4kF\=T!8[\Y="!t:U`Wj%#N6DFAr[73j.Q6(#f48<*JAo/p]\N9gFI5u3"h5,=M^_IZTk-RFprCrO4_kokXk.qX*0ll0lD(1ZosHV%5ZP\=Um_r>S*&3`]OaOm80tDk#K__n*dnU/JAiLL86PS9&^0EAHsfL6HI:LWc-G6dl,KFK6d&(h'_m]37Y4eFPd;J:QI(QClE+aeDiHN!\&\F.1k)ES;Nl&3V(+i9gS'JLkV>;_g_)m3'&.P?,:b>q#J6E34V-^r?:/a1lQbik/\j81Th19F98:lF3jOu7+.gX!@!Zd9TrblQ7[;';4I%ZP=OC\5"C'!W1li2>:<K69=&neq[N+lpe%3/(X6#YWUIf/>3=MN+;![4>0NJ``H&+&TMY/.:WdSeV:005M:,KL4oS_5\QYr=/0IO-XMKB#`FY4/dIgc'G`ge,b(;b8SG2gUV2'&r0Ei$o@4#r\b,im"%</St;Ot:h[_-Cf%IkIjn6t(`h#nnU#s'kWmo!aB=YW4$U?qBG@;8O7MC]S(dG+Y21)LK!F3k_UoD[VAG6V/?J3scR-j*as/&kI-A^/oQW)b)<G-1<nBUYd@4M/ut^mN@)4t1-;*gS9OPR_3.=t[/:6p)<W%)V&jW)-EK%!,*]?YbDRW`8*T33LWIH&5d^,9?-*6cb.s7,?lZjXeNOa3,l$,M#tL\#4Q.f9O1_\kS%pmDWk:dPRr[<p!9W'hs!k&/AdK<R%iF<96*?[^KbsdG$3YBp8(tY=^B^7`Y+c7U2=).7;*1CR7!K?08.PJGK:V9Qj^?r6AE;)%H+@76-g`d2=NA4NccV5[+AlMmJb-8-7f%'9EMQdTn6='BQ@<#3!s%W3%rs*dbY7XhXn&;8*"U7=RG`%tc7^h@q0']=9!FPmu'B,F0s,N['rS/58Z>;e/n<CCQfPd9QL"f5Nb?pDPWN7k@DPT^KhR:)sl5l10ZDV7QnD=+M6Oc0>SgXD[:Q)(44Ics45P_U0b;JQ^45_SP$I(lpAm]R%T:\3K3ggKJXA.GDT)q?8s(>9Ja>Kd3$W5Ln8b4%hDnimuD\#htZ0Ytg/VP@6=%UU8frhHhM:;6rY0q.BkmC88Ge-s7L#FRIe`^%7Y$&XZOTKc.WqYV9SYXME&PjU)_M`N3?SJn*5QK%4G;]>q<")XK_[(IRdK_V0j]#XOBqEMJ=ZU!-%ZXiH?ub``92^c9N8"l*WK<dlj$poDtOI*!Kn$d>r0cjsNAg8KF/0HU;J6M"OmnnDqT>$E,B_.3\m[4L#IOUWJb=A1m)*a5`ZZTMIJc<u6&P?8:#HW0;'o^Tj)5EBG,Im.Bd[;NYlj@`4pMsMMFH8704p)da$2aM7Q>16n3<iKN,*bec:drZWP^g#bt]:SC.eEF6C"gL5Q*j![l)YoTnI'1![>':0p)C^F8)(I4f7&BX71gW^C2B)PA^G>?gmk<"p=L2%d2s,NiMB<Me7V12)GHYJn;6\Hi))_+L55YGTBsB9aM\U=cf%<O0o@7"MNr;GbK3un$E?e./O:=p![/)+Rjgrbh^7k<RWiT:P('U>D;s=uP"g_X&DmYW3A-6Ij&,]lb[4%fH8oJo]R?b@g`.!!6ot??N's9tQq),D$?FZ0tSOWAN&@$5lISoIVGV68-&q^,FN":Q_s!#qLqnjo4rJU47c#b61=hVWYlHT)Kq>M$fcES/+2Y&Mej&P]UhL/\i/hBEs)nhR]ppB>gO;EtCroZ'ZpIKtO(q^7#`@0VY5BIjQ5l7HpOP0d9"3J_,#Ib%Ls60\'?9@*n[rd+\`ZGE&1ZU]:mel#!p\/^`ZAFKr=>)<"8K.gW*R"*YIWGD9*%L6+9,q;'<,@="4B1s/D/m\Rm`TLfd5pBJaILjRDiTkP3XLg!LSt+@,kQki#(4Ajo8n.6;aksQjiL5FhP+/R*m2'6CDct<`FX(fSiA-k0%5T%ig7Oia*t]ZIm0S\;4@e;g%qDh:8QbI_f;<p1!IBPN$!_.6E/9aeb3,U@TlF]-Vbo$qtGe%H7q=2[q#8.VELqnmTLRIf(SI<H2Cr?*C5?)KpgFsCe`nk2Eg=s1TA(?QrK=Vkkt`eX>Lp~>endstream
-endobj
-10 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2740
->>
-stream
-Gb!Sm>B?9+&q9SYkbg$$=aL4fr=L:6O@V\=Pd@OH(Q??h0`msJg%#(<mGTC&9=D4a9r4"P+uJSQmcj_Jqs-NP$3/0@s2bW+,(^=IAWS?/2^#.hKkLm4FRn#iO`Y?:)A(#dMPf=0Asu[&^-'MWZ7/X;-.N"?dKh]e*>FFqVC%u>K:>)#Lg`o578Xj5lc<OEXc7o]PbE3"$V0=0/57H(<HJq;2.F]`6n:6fIKB3D&@p)aWB^)0Y9<>O07Sc@4%+RS"c2$&7LVksFB#1Hc*Z(NK-<(?rU'k.<C8+!A8E]bq*FZ#++$0SDE+8u6WIaa'iR5N:IS:m"bOo2U;8(cVVa`/Ntl?.8uOWbarieiMJ>]s#b!5Y#(GQeD@MQUM:n7J^ZHuF&P\S9el?&Oae$A9:\O##X1dY#?+<2a3qL.FY2EYd2rHH1RKkJIHTq"p_>]0-'V4G')S;h3U''Y`Lm)0#BFQ`DUSa&[865NW?pP)5Z%T37h$>"AP1Uk=/.jc_1=]>si2u](?c&dPcg2$Xlp[Kb_VZJXa0$)d,P]^u^204BAOtu%6W",c]%Ioe/<*g_K#?"__aL_2MYPZZ=eS5b/B%V>'!k78cMO:>cr.RV-9R:\ioIHoVDH"5RT.UsFe[g>X<!n*!rXW3"D6g*K?uQiJ`434^U_21SiSL8j4Pm6p4A6bdra*AA+2$;?0d2mbAWjt;fPi=c.Qe>CJ?s7r!P?W`fK/8Ie2X_($#$N/K"\*GmBNmO-a\%nu>2`4`6T4/'H1^4W(D7>2oI#0]j'p`J^hPhWZ;gGabjWa*p85^[J?I9XR'OK,CdM;=;KCOj%SG%"=JML8F(]"1`hQIXR7%rg5*3IIos5G/IB:Lo/S;i(GM:GT4Bqd!lG\D<1UJi*0h57'>QGUVIt,s!RHIf'NI@(L?aFcYf@As.>rnR]F3U$%f8Fi7B1$\W-2,HNEDn/NI%T<EeH[gq[T/V6$06b_M"><LPSuL"\_N",QV[#GLjZoPW/r$116bU_6&EJpjTJ%8%2)`\3j(cR#q0,E;rpnMgem(K5nFa_^=#FPK;e&o7KZA;p1F![mouTW\80cB+MekK)9oS7@GRL*Xk_`;a!K:G7)"n^)K12NQbH=jD8>SRuU/oHIe+i[XB&nr0IWEUrc!,\;oHTrRqr]N(N$K(f0^8bq"l8=ou4qW%gTo9gUe03InnaiMj\R'aA5q4cf77N%-rHV9YPXA-iK\`U0ll9;#%H9>RG.=5l[DG^\rl97tC!FgPN[&^57dBL79O%Ur7A/)cc0&KA=+s6%MAlsCpO09bRq>!u5AGcHGkHoKh1e^2KK?]Ta`gcFGc6BtTgXKo?(MS"h`-fsqiZAKM>)3rT39S.oPO6ulDZief+Ju"(LSeZuf_k$L1*\c="H<<T#bgKW56c9J"`l&[#O]oV`9]_+##:@=iC-o)@-[X`R^Y<+abo`m.;H0NU5V$9^n,q@foljM\A2?q]8HDib5t.I)2h5udq_iD0](*e=I3`^3OQ'fJife()AiC$9#"u4X!rGtj8O6i-UujNm2"'m?Jsc:.U?=t@B;;rVn;/["o`.^g7S=%g/WEkr>E\GHPa613841?YD.I'gSI3sL64F.'K6Ni`#X,HjS@7,/>AFim)Sq^Q$iLo=1>8''1a&(H<rJR'sJeS=ht]XO(i_E<.Zl3h.I/f78iVD$*cH2V=8GmAXKS[[VQJU>GaN8@U1;!$F<BoM/.o'?ldM5$WM-NEP;F=/oN6S8OU<0BD@]E:jYbDnUs@W9n!7MZJ#[+iMmq]D*XQrDfN@,mW@Lp273NJ%,EV-\C9XAPK!4_nJ:NZ]=/fA7#e)j[`tj^JL.U^>FGI-Gk[mYK>R:EpZmIKC[QBNAWMX"(/:T685NHoJpWN*0GQCpf/ub;Lm2Wli`]C?)_'=eH\(o].WB5PJq(Sc+1^HR#[udU(oNdGJ>G:bil;u.8i6p[IQYW?SS'M9\N!Xa]_Kd6:Y1js$j7!pH%r]gSmsK7':7_k#32mET#9.PNZWoWk"*8gK=31/fb5Kja*+at$c&D\GOQ/V3278(NCuBC&?dgK=Ab7T/qs%RVCM"9Ne,3EZoTI[)K&($T;#=ZdB_J;,Ql5O-s*U:WkJJ$nur,];m/fGjkiu:gsOo&,L(E(8sPP7G=iAm8'Uq'kEQ+tOO]R&!Rn2RBQ"TC$\C*/F)^VRY6B::=@[5@0V_o@Ch3!=%tn>E."QZ(3J*TLZkPGQ`?t&Ri-,`60[&IU.^.HOH/%2"Zp1.u4LFj/8sL-#C)B&1<86'hD8[/f]\EQTKfT!iK55?#B"<)],lE7%:hAIe:aB3e':W?<fqIF)KH_GCYJ`B51['3j]!lT2'2^'X^I$[(TU<agNpStpZUZ69i637[fX6>\f(le9RA*nR3Ej2=2le)A3g?0n>ZHIOVVj!">[0X`Y1?a>%N;ePFH)sWfIZU>Eh1b"s)l0FV%2,q-4&)QO[8i1H6S(.>q\LJPE?=0\u"YgY$gCr`(SFZRAoY4KV(0I9L!W01P<D>'L_JgX4b>\B]J*I\s]N>\_p7lo?MDf7s9B&gBHkQ4Gq>:lajc81%@0!al-Nn?pADWKnHnC9kh<p3(>bu$PZu28[1)`Li1mE/Vj621;O99Q,U<er_TkY#mF+;OCY?#G`5($N?/`f(NbW=6WM)=gD#N/iiQq,MFH-a.&$g_=CM*+?mCPc5dJVM)r*a;#$jV]G#2]>9R:nmZ6f/&I5r36H]*'Kg>ic(q%"s2>qc~>endstream
+<< /Title (Nishan Khadgi - SOC Analyst Resume) /Author (Nishan Khadgi) /Subject (SOC Analyst Resume) /Creator (Nishan Khadgi) >>
 endobj
 xref
-0 11
+0 8
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000524 00000 n 
-0000000728 00000 n 
-0000000796 00000 n 
-0000001150 00000 n 
-0000001215 00000 n 
-0000003612 00000 n 
+0000000016 00000 n 
+0000000079 00000 n 
+0000000136 00000 n 
+0000000272 00000 n 
+0000000369 00000 n 
+0000000471 00000 n 
+0000007501 00000 n 
 trailer
-<<
-/ID 
-[<ca97bd29aac157fe5163bb291cc90984><ca97bd29aac157fe5163bb291cc90984>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 11
->>
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
 startxref
-6444
+7645
 %%EOF

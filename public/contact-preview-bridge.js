@@ -36,14 +36,15 @@
       if (!container || !config) return;
       const entries = [];
       if (typeof config.email === "string" && config.email) entries.push(["EMAIL", config.email, "mailto:" + config.email]);
+      if (typeof config.phone === "string" && config.phone) entries.push(["PHONE", config.phone, "tel:" + config.phone.replace(/[^\d+]/g, "")]);
       if (typeof config.linkedin === "string" && safeHref(config.linkedin)) entries.push(["LINKEDIN", config.linkedin.replace(/^https?:\/\//, "").replace(/\/$/, ""), safeHref(config.linkedin)]);
       if (typeof config.github === "string" && safeHref(config.github)) entries.push(["GITHUB", config.github.replace(/^https?:\/\//, "").replace(/\/$/, ""), safeHref(config.github)]);
       if (entries.length) {
         container.replaceChildren();
-        for (const entry of entries) addContactLink(container, ...entry);
+        entries.forEach((entry) => addContactLink(container, ...entry));
       }
 
-      const repoUrls = [config.itgcRepo, config.vendorRiskRepo, config.stockApiRepo];
+      const repoUrls = [config.cloudGuardRepo, config.grcRepo];
       document.querySelectorAll(".project-entry").forEach((project, index) => {
         const placeholder = project.querySelector(".repo-pending");
         const href = safeHref(repoUrls[index] || "");
@@ -64,7 +65,7 @@
     event.preventDefault();
     event.stopImmediatePropagation();
     status.classList.remove("preview-hidden");
-    status.style.color = "#c7ff46";
+    status.style.color = "#39e8cc";
     status.textContent = "Sending message…";
     const button = form.querySelector('button[type="submit"]');
     const originalLabel = button?.textContent || "Send message ↗";
@@ -81,11 +82,11 @@
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(result.message || "The message could not be sent. Please try again.");
-      status.style.color = "#c7ff46";
+      status.style.color = "#39e8cc";
       status.textContent = result.message || "Message sent. Thanks for reaching out.";
       form.reset();
     } catch (error) {
-      status.style.color = "#ff9a83";
+      status.style.color = "#ff9bb1";
       status.textContent = error instanceof Error ? error.message : "The message could not be sent. Please try again.";
     } finally {
       if (button) {
