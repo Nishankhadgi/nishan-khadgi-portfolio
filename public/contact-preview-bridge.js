@@ -43,6 +43,18 @@
         container.replaceChildren();
         entries.forEach((entry) => addContactLink(container, ...entry));
       }
+      if (typeof config.location === "string" && config.location) {
+        const row = document.createElement("div");
+        row.className = "contact-static";
+        const caption = document.createElement("span");
+        caption.textContent = "LOCATION";
+        const value = document.createElement("strong");
+        value.textContent = config.location;
+        const empty = document.createElement("span");
+        empty.setAttribute("aria-hidden", "true");
+        row.append(caption, value, empty);
+        container.append(row);
+      }
 
       const repoUrls = [config.cloudGuardRepo, config.grcRepo];
       document.querySelectorAll(".project-entry").forEach((project, index) => {
