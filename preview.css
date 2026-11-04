@@ -154,3 +154,8 @@ body{background:radial-gradient(ellipse at 84% 8%,rgba(83,103,217,.09),transpare
 .hero-console,.project-art,.skill-card,.credential-card{transition:box-shadow .25s ease,transform .25s ease,border-color .25s ease}
 @media(max-width:900px){.nav-links.nav-open{background:rgba(250,252,255,.98)}}
 @media(prefers-reduced-motion:reduce){.hero-console,.project-art,.skill-card,.credential-card{transition:none}}
+
+
+/* GRC project summaries */
+.project-tools{margin:12px 0 0;color:#52677f;font-size:11px;line-height:1.65}
+.project-tools b{color:#087f8c;font-weight:600}
