@@ -118,15 +118,6 @@ The résumé lists the following job simulations under its “Certification” h
 - Cybersecurity Consulting Simulation
 - Cybersecurity Job Simulation
 
-## Additional portfolio projects
-
-The following existing projects are retained as supplementary portfolio work. They are separate from the two projects explicitly listed in the résumé and should be evaluated using each repository’s current contents and limitations.
-
-- [CloudGuard — AWS Security & GRC Assurance](https://github.com/Nishankhadgi/cloudguard-aws-grc-assurance)
-- [CloudGuard Dashboard](https://github.com/Nishankhadgi/cloudguard-dashboard)
-- [IT Risk & GRC Practice Portfolio](https://github.com/Nishankhadgi/it-risk-grc-portfolio)
-- [React + Node.js Stock API learning project](https://github.com/Nishankhadgi/react-and-node-scaffolding-Nishankhadgi)
-
 ## Portfolio site
 
 The portfolio site includes an interactive, fictional security-alert workbench and supporting project summaries. The workbench is a demonstration; it is not connected to a live SIEM, employer environment, or real incident data.
