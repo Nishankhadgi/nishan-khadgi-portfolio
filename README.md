@@ -36,21 +36,79 @@ Technology Risk and GRC Analyst with a Computer Security background and experien
 - Support governance and compliance through policy reviews, control documentation, risk reporting, and corrective-action monitoring.
 - Participate in third-party risk management by reviewing vendor security questionnaires, supporting due diligence, and documenting potential technology and cybersecurity risks.
 
-## Projects listed on the résumé
+## Project portfolio
 
-### 1. SIEM Detection Engineering & MITRE ATT&CK Validation Lab
+The live portfolio presents nine projects and practice areas. Each entry separates tools documented in a project or repository from broader résumé skills that are relevant but not yet evidenced by committed workpapers.
 
-Designed a security-monitoring lab using Microsoft Sentinel, KQL, and Windows Sysmon to detect suspicious endpoint and authentication activity. Developed custom detection rules, mapped detections to MITRE ATT&CK, and validated detection coverage through controlled Atomic Red Team simulations. Documented detection gaps, false positives, and recommended response actions.
+### 1. SIEM Detection Engineering & MITRE ATT&CK Validation Lab — résumé-listed
 
-**Tools:** Microsoft Sentinel, KQL, Windows Sysmon, Sigma, Atomic Red Team, MITRE ATT&CK, GitHub.  
-**Skills:** SIEM, Detection Engineering, Log Analysis, Threat Hunting, Alert Tuning, ATT&CK Mapping, Incident Investigation.
+Designed a Microsoft Sentinel / KQL / Windows Sysmon lab for suspicious endpoint and authentication activity, custom detection rules, ATT&CK mapping, and controlled Atomic Red Team validation.
 
-### 2. Automated Phishing Investigation & IOC Enrichment Pipeline
+- **Tools:** Microsoft Sentinel, KQL, Windows Sysmon, Sigma, Atomic Red Team, MITRE ATT&CK, GitHub.
+- **Skills:** SIEM, Detection Engineering, Log Analysis, Threat Hunting, Alert Tuning, ATT&CK Mapping, Incident Investigation.
 
-Developed a Python-based phishing investigation tool to parse email headers, extract suspicious URLs, domains, IP addresses, and file hashes, and enrich indicators through threat-intelligence services. Implemented automated risk scoring and generated structured investigation reports for analyst triage and escalation.
+### 2. Automated Phishing Investigation & IOC Enrichment Pipeline — résumé-listed
 
-**Tools:** Python, VirusTotal API, URLhaus, urlscan.io, JSON, CSV, MITRE ATT&CK.  
-**Skills:** Phishing Investigation, IOC Analysis, Threat Intelligence, Python Automation, Indicator Enrichment, Risk Scoring, Incident Documentation.
+Python workflow to parse email headers, extract URLs/domains/IPs/hashes, enrich indicators using threat-intelligence services, risk-score indicators, and produce structured triage reports.
+
+- **Tools:** Python, VirusTotal API, URLhaus, urlscan.io, JSON, CSV, MITRE ATT&CK.
+- **Skills:** Phishing Investigation, IOC Analysis, Threat Intelligence, Python Automation, Indicator Enrichment, Risk Scoring, Incident Documentation.
+
+### 3. SOC Alert Triage Workbench — interactive portfolio demo
+
+An in-page synthetic queue with eight example alerts, search, severity filters, selected-record context, ATT&CK references, and suggested investigation steps.
+
+- **Tools:** HTML5, CSS3, Vanilla JavaScript, DOM Events, MITRE ATT&CK references.
+- **Skills:** Alert Triage, Severity Prioritization, Investigation Workflow, Log Context Analysis, ATT&CK Mapping, Responsive UI, Data Filtering.
+- **Boundary:** Fictional sample data; not connected to a live SIEM or employer environment.
+
+### 4. CloudGuard — AWS Security & GRC Assurance — scaffold
+
+Learning scaffold for organizing cloud findings, control references, risk rationale, and remediation recommendations.
+
+- **Documented stack:** Python 3.12, Node.js, pandas, tabulate; a Prowler-style CSV input is referenced by the repository's test check.
+- **Skills:** Cloud Risk Assessment, AWS Security Concepts, IAM Risk Review, Control Mapping, Risk Scoring, Evidence Organization, Remediation Planning, Audit Readiness.
+- **Status:** The committed repository is missing the referenced source scripts and CSV inputs, so the end-to-end pipeline is not runnable from the current checkout.
+
+### 5. CloudGuard — Static AWS Risk Dashboard — demo bundle
+
+Static example dashboard with illustrative cloud findings, CSV evidence/report samples, a SQLite example database, and a Markdown report packaged in a ZIP archive.
+
+- **Tools / formats included:** HTML, CSV, SQLite, Markdown, ZIP demo bundle.
+- **Skills:** Cloud Risk Communication, Evidence Organization, Risk Visualization, Control Crosswalks, Remediation Reporting, Executive Summaries.
+- **Boundary:** Fictional static demo; no live AWS connection or scanner.
+
+### 6. IT Risk & GRC Practice Portfolio — practice overview
+
+Practice topics include risk identification, risk registers, ITGC/ITAC control-testing concepts, evidence review, risk-to-control relationships, remediation, and third-party risk.
+
+- **Tools in résumé skillset:** ServiceNow GRC, RSA Archer, OneTrust, AuditBoard, Advanced Excel, Power BI, SQL.
+- **Skills:** Technology Risk Assessment, Risk Registers, COBIT, COSO, NIST CSF, ISO 27001, SOC 2, Control Gap Analysis, Compliance Documentation.
+- **Status:** The repository currently contains only its README and .gitignore; these tools are résumé skills, not proof of tool use in committed project files.
+
+### 7. ITGC Control Testing & Remediation — practice scenario
+
+Illustrative control-testing scenario covering user access, change management, system operations, evidence review, exceptions, risk linkage, and corrective-action tracking.
+
+- **Relevant tools from résumé skillset:** Advanced Excel, Power BI, ServiceNow GRC, RSA Archer, AuditBoard, SQL.
+- **Skills:** ITGC, ITAC, SOX 404, Access Control Reviews, Change Management, Segregation of Duties, Control Testing, Audit Evidence Review, Remediation Tracking.
+- **Status:** No standalone test workbook is currently committed to the linked GRC repository.
+
+### 8. Third-Party Vendor Risk Assessment — practice scenario
+
+Fictional vendor due-diligence scenario for security-questionnaire review, risk documentation, assurance evidence, data protection, and follow-up actions.
+
+- **Relevant tools from résumé skillset:** ServiceNow GRC, RSA Archer, OneTrust, AuditBoard, Advanced Excel, Power BI, SQL.
+- **Skills:** TPRM, Vendor Risk Assessment, Vendor Due Diligence, Questionnaire Review, Vendor Compliance Monitoring, GDPR, HIPAA, Data Privacy, Privacy Impact Assessment.
+- **Status:** No vendor questionnaire dataset or assessment workbook is currently committed to the linked GRC repository.
+
+### 9. React + Node.js Stock API — software learning project
+
+React frontend calls an Express GET endpoint, displays selected-symbol responses, handles loading/errors, and polls every five seconds. The API generates random demonstration values; it is not a live market-data integration.
+
+- **Tools:** React 18, ReactDOM, Babel Standalone, HTML, CSS, JavaScript, Node.js, Express, CORS, Fetch API.
+- **Skills:** React useState/useEffect, REST API Integration, HTTP GET, Query-Parameter Validation, Client/Server Data Flow, Timed Polling, Error Handling, CORS Fundamentals.
+- **Boundary:** Mock data only; no authentication is implemented.
 
 ## Professional development
 
