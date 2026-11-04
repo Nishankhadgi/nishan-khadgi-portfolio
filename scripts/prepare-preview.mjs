@@ -9,4 +9,4 @@ await mkdir(publicRoot, { recursive: true });
 await copyFile(join(projectRoot, "preview.css"), join(publicRoot, "preview.css"));
 const html = await readFile(join(projectRoot, "preview.html"), "utf8");
 await writeFile(join(publicRoot, "preview.html"), html, "utf8");
-console.log("Prepared the SOC Analyst portfolio preview in public/.");
+console.log("Prepared the Technology Risk and GRC portfolio preview in public/.");
