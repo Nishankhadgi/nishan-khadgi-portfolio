@@ -159,3 +159,14 @@ body{background:radial-gradient(ellipse at 84% 8%,rgba(83,103,217,.09),transpare
 /* GRC project summaries */
 .project-tools{margin:12px 0 0;color:#52677f;font-size:11px;line-height:1.65}
 .project-tools b{color:#087f8c;font-weight:600}
+
+
+/* Project tool / skill details */
+.project-tools,.project-skills{margin:10px 0 0;color:#52677f;font-size:10px;line-height:1.7;overflow-wrap:anywhere}
+.project-tools b,.project-skills b{color:#087f8c;font-weight:700}
+.project-status{display:block;margin:12px 0 0;padding:8px 10px;border-left:2px solid #8a9bb0;background:rgba(83,103,217,.045);color:#667b92;font:9px/1.6 "DM Mono",Consolas,monospace;letter-spacing:.015em}
+.project-local-link{display:inline-flex;align-items:center;gap:6px;margin-top:14px;color:#087f8c;font-size:10px;font-weight:700}
+.project-local-link:hover{color:#5367d9}
+.project-card h3{overflow-wrap:anywhere}
+.project-card p{overflow-wrap:anywhere}
+@media(max-width:620px){.project-tools,.project-skills{font-size:10px}.project-status{font-size:8px}}
