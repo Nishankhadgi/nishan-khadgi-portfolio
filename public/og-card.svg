@@ -27,11 +27,11 @@
   <circle cx="1068" cy="479" r="6" fill="#fff" stroke="#8156bc" stroke-width="2"/>
 </g>
 <rect x="58" y="54" width="9" height="9" rx="2" fill="#087f8c"/>
-<text x="83" y="65" fill="#52677f" font-family="monospace" font-size="17" letter-spacing="4">NISHAN KHADGI / SOC ANALYST</text>
-<text x="58" y="223" fill="#182940" font-family="Arial,sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Detect the signal.</text>
-<text x="58" y="318" fill="#087f8c" font-family="Arial,sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Contain the risk.</text>
-<text x="62" y="388" fill="#52677f" font-family="monospace" font-size="18" letter-spacing="2">TRIAGE · THREAT DETECTION · INCIDENT RESPONSE</text>
+<text x="83" y="65" fill="#52677f" font-family="monospace" font-size="17" letter-spacing="4">NISHAN KHADGI / TECHNOLOGY RISK &amp; GRC</text>
+<text x="58" y="223" fill="#182940" font-family="Arial,sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Make risk visible.</text>
+<text x="58" y="318" fill="#087f8c" font-family="Arial,sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Strengthen controls.</text>
+<text x="62" y="388" fill="#52677f" font-family="monospace" font-size="18" letter-spacing="2">TECHNOLOGY RISK · IT CONTROLS · COMPLIANCE</text>
 <rect x="62" y="535" width="324" height="42" rx="21" fill="#fff" stroke="#d5e0eb"/>
 <circle cx="85" cy="556" r="5" fill="#087f8c"/>
-<text x="101" y="562" fill="#52677f" font-family="monospace" font-size="13" letter-spacing="2">EVIDENCE / CONTEXT / ACTION</text>
+<text x="101" y="562" fill="#52677f" font-family="monospace" font-size="13" letter-spacing="2">GOVERNANCE / EVIDENCE / REMEDIATION</text>
 </svg>
