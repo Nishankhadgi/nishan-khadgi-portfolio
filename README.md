@@ -40,12 +40,14 @@ Technology Risk and GRC Analyst with a Computer Security background and experien
 
 The live portfolio presents nine projects and practice areas. Each entry separates tools documented in a project or repository from broader résumé skills that are relevant but not yet evidenced by committed workpapers.
 
-### 1. SIEM Detection Engineering & MITRE ATT&CK Validation Lab — résumé-listed
+### 1. SIEM Detection Engineering & MITRE ATT&CK Validation Lab — starter lab created
 
-Designed a Microsoft Sentinel / KQL / Windows Sysmon lab for suspicious endpoint and authentication activity, custom detection rules, ATT&CK mapping, and controlled Atomic Red Team validation.
+Created a starter lab folder with a Sysmon configuration, three KQL detection drafts, two Sigma rules, Sentinel/AMA setup instructions, ATT&CK mapping, a benign Atomic Red Team test plan, and evidence/report templates. The Windows VM, Sentinel ingestion, test execution, alert tuning, and validation evidence are still pending.
 
 - **Tools:** Microsoft Sentinel, KQL, Windows Sysmon, Sigma, Atomic Red Team, MITRE ATT&CK, GitHub.
 - **Skills:** SIEM, Detection Engineering, Log Analysis, Threat Hunting, Alert Tuning, ATT&CK Mapping, Incident Investigation.
+- **Starter files:** [projects/siem-detection-engineering-lab](projects/siem-detection-engineering-lab/README.md).
+- **Status:** Repository starter content is committed; no live Sentinel results or executed Atomic test are claimed yet.
 
 ### 2. Automated Phishing Investigation & IOC Enrichment Pipeline — résumé-listed
 
