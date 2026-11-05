@@ -1,0 +1,1 @@
+date_utc,host_alias,atomic_technique,atomic_test_name,test_timestamp_utc,expected_event,local_event_verified,sentinel_table,sentinel_event_verified,kql_rule,query_result,detection_status,false_positive_notes,response_recommendation,evidence_files,notes

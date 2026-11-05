@@ -1,0 +1,13 @@
+// Changes to common Windows Run / RunOnce registry locations
+// Source: Sysmon Event ID 13 in the Log Analytics Event table.
+// ATT&CK: T1547.001 — Registry Run Keys / Startup Folder
+// A matching change is a lead to investigate, not automatically malicious.
+
+Event
+| where TimeGenerated >= ago(24h)
+| where EventLog =~ "Microsoft-Windows-Sysmon/Operational"
+| where EventID == 13
+| where RenderedDescription contains "CurrentVersion\\Run"
+    or RenderedDescription contains "CurrentVersion\\RunOnce"
+| project TimeGenerated, Computer, UserName, EventID, RenderedDescription
+| order by TimeGenerated desc

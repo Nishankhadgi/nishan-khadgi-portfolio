@@ -1,0 +1,28 @@
+title: Lab - Registry Run Key Value Modification
+id: 6b1dcd11-74b2-4f42-a854-7a1cf0d3f102
+status: experimental
+description: Identifies registry value modifications under common Windows Run and RunOnce locations. Investigate the writer process and target value.
+references:
+  - https://attack.mitre.org/techniques/T1547/001/
+author: Nishan Khadgi (lab starter rule)
+date: 2026/11/05
+logsource:
+  product: windows
+  category: registry_set
+detection:
+  selection:
+    TargetObject|contains:
+      - '\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\'
+      - '\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\'
+  condition: selection
+fields:
+  - Image
+  - TargetObject
+  - Details
+  - User
+falsepositives:
+  - Legitimate installers, updaters, and applications configured to start at logon
+level: medium
+tags:
+  - attack.persistence
+  - attack.t1547.001

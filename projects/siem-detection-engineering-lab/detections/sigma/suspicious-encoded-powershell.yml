@@ -1,0 +1,33 @@
+title: Lab - Suspicious Encoded PowerShell Command
+id: 6b1dcd11-74b2-4f42-a854-7a1cf0d3f101
+status: experimental
+description: Flags PowerShell process creation with common encoded-command switches. Review command content and execution context before classifying as malicious.
+references:
+  - https://attack.mitre.org/techniques/T1059/001/
+author: Nishan Khadgi (lab starter rule)
+date: 2026/11/05
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection_image:
+    Image|endswith:
+      - '\\powershell.exe'
+      - '\\pwsh.exe'
+  selection_encoded_switch:
+    CommandLine|contains:
+      - ' -enc '
+      - ' -encodedcommand '
+      - ' -enco '
+  condition: selection_image and selection_encoded_switch
+fields:
+  - Image
+  - CommandLine
+  - ParentImage
+  - User
+falsepositives:
+  - Approved administrative or software deployment scripts that use encoded commands
+level: medium
+tags:
+  - attack.execution
+  - attack.t1059.001

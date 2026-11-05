@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sysmon schemaversion="4.82">
+  <!-- Starter configuration for a disposable lab VM. These event families are
+       collected broadly for initial coverage; review volume and tune before use
+       outside a small lab. Sysmon records telemetry; it does not analyze it. -->
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <EventFiltering>
+    <!-- Event ID 1: process creation. -->
+    <ProcessCreate onmatch="exclude" />
+    <!-- Event ID 3: network connections. -->
+    <NetworkConnect onmatch="exclude" />
+    <!-- Event ID 11: file creation. -->
+    <FileCreate onmatch="exclude" />
+    <!-- Event IDs 12-14: registry activity. -->
+    <RegistryEvent onmatch="exclude" />
+    <!-- Event ID 22: DNS query. -->
+    <DnsQuery onmatch="exclude" />
+  </EventFiltering>
+</Sysmon>

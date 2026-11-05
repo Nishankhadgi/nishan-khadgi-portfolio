@@ -1,0 +1,16 @@
+// Suspicious or encoded PowerShell process creation
+// Source: Sysmon Event ID 1 in the Log Analytics Event table.
+// ATT&CK: T1059.001 — PowerShell
+// Validate the Event table field population in your workspace before alerting.
+
+Event
+| where TimeGenerated >= ago(24h)
+| where EventLog =~ "Microsoft-Windows-Sysmon/Operational"
+| where EventID == 1
+| where RenderedDescription contains "-enc"
+    or RenderedDescription contains "-encodedcommand"
+    or RenderedDescription contains "FromBase64String"
+    or RenderedDescription contains "DownloadString"
+    or RenderedDescription contains "Invoke-Expression"
+| project TimeGenerated, Computer, UserName, EventID, RenderedDescription
+| order by TimeGenerated desc

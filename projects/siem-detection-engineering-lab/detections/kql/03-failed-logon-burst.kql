@@ -1,0 +1,17 @@
+// Repeated Windows failed logons from one source against one account
+// Source: Security Event ID 4625 in SecurityEvent (Windows Security Events via AMA).
+// ATT&CK: T1110 — Brute Force (investigative lead only, not proof).
+// Starting lab threshold: >= 5 failures in a 5-minute bin. Tune after review.
+
+SecurityEvent
+| where TimeGenerated >= ago(24h)
+| where EventID == 4625
+| where isnotempty(IpAddress)
+| summarize FailureCount = count(),
+            FirstFailure = min(TimeGenerated),
+            LastFailure = max(TimeGenerated)
+    by Computer, IpAddress, TargetAccount, bin(TimeGenerated, 5m)
+| where FailureCount >= 5
+| project TimeGenerated, Computer, IpAddress, TargetAccount,
+          FailureCount, FirstFailure, LastFailure
+| order by FailureCount desc
