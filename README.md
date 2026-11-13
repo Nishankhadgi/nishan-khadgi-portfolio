@@ -38,7 +38,7 @@ Technology Risk and GRC Analyst with a Computer Security background and experien
 
 ## Project portfolio
 
-The live portfolio presents nine projects and practice areas. Each entry separates tools documented in a project or repository from broader résumé skills that are relevant but not yet evidenced by committed workpapers.
+The live portfolio presents ten projects and practice areas, including the AWS Cloud Infrastructure Security & Technology Risk Audit Platform. Each entry separates tools documented in a project or repository from broader résumé skills that are relevant but not yet evidenced by committed workpapers.
 
 ### 1. SIEM Detection Engineering & MITRE ATT&CK Validation Lab — starter lab created
 
@@ -111,6 +111,17 @@ React frontend calls an Express GET endpoint, displays selected-symbol responses
 - **Tools:** React 18, ReactDOM, Babel Standalone, HTML, CSS, JavaScript, Node.js, Express, CORS, Fetch API.
 - **Skills:** React useState/useEffect, REST API Integration, HTTP GET, Query-Parameter Validation, Client/Server Data Flow, Timed Polling, Error Handling, CORS Fundamentals.
 - **Boundary:** Mock data only; no authentication is implemented.
+
+
+### 10. AWS Cloud Infrastructure Security & Technology Risk Audit Platform — interactive audit demo
+
+An interactive audit workspace for a fictional AWS-hosted claims platform. It covers audit planning, asset inventory, control testing, workpapers, evidence registration, 5×5 risk assessment, structured findings, remediation, framework mapping, and executive reporting.
+
+- **Tools:** Next.js, React, TypeScript, Tailwind CSS, Recharts, Python, Boto3, AWS IAM, S3, KMS, CloudTrail, GuardDuty, AWS Config, Security Hub, EC2, RDS, AWS Backup.
+- **Skills:** AWS Cloud Security Review, Internal Audit Planning, Control Testing, Evidence Handling, Technology Risk Assessment, Audit Findings, Remediation Tracking, Framework Mapping, Executive Reporting.
+- **GitHub:** https://github.com/Nishankhadgi/aws-cloud-risk-audit-platform
+- **Live demo:** https://aws-cloud-risk-audit.vercel.app
+- **Boundary:** The hosted interface uses synthetic sample data. The Python/Boto3 scanner is a separate local CLI and must only be run against AWS accounts the operator is authorized to assess, with read-only permissions. The demonstration is not an independent audit opinion or compliance certification.
 
 ## Professional development
 
